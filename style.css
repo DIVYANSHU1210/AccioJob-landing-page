@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@500&family=Inter&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.title-logo{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.my-navbar{
+    position: sticky !important;
+    top:0px !important;
+    background-color: rgba(255, 251, 251, 0.900);
+    z-index: 1;
+}
+
+.nsdc-logo{
+    width: 100px;
+    padding-inline: 10px;
+}
+
+.blue-ribben{
+    height: 40px;
+    display: flex;
+    
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    padding: 1px;
+    background-color: rgb(47, 128, 237);
+}
+
+.blue-ribben>p{
+    padding-top: 5px;
+}
+
+.abz{
+    font-family: 'ABeeZee', sans-serif !important;
+}
+
+
+
+.hero{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding:70px ;
+    position:relative
+}
+
+.arrow{
+    position: absolute;
+    top: 220px;
+    left:800px;
+}
+
+.hero-left{
+    flex: 3;
+}
+
+.hero-right{
+    flex-4;
+}
+
+.h-text>h1{
+    font-size: 50px;
+}
+
+
+.h-card-1{
+    border: #e2e2e2 solid;
+    border-width: 2px;
+    border-radius: 10px;
+    width: 800px;
+    background-color: white;
+}
+.medal, .partner, .guarantee, .salary{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px !important; */
+}
+
+.medal{
+    background-color: rgb(255, 225, 223);
+}
+
+.partner{
+    background-color: rgb(255, 246, 223);
+}
+
+.guarantee{
+    background-color: rgb(223, 255, 228);
+}
+
+.salary{
+    background-color: rgb(223, 243, 255);
+}
+
+.element{
+    padding: 20px;
+}
+
+.element-text{
+    padding-left: 10px;
+    line-height: 5px ;
+}
+
+
+.h-card-2{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    padding-top: 10px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+.h-card-3{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow:  -10px -10px 50px rgba(72, 249, 37, 0.2), 
+                10px 10px 50px rgba(248, 3, 3, 0.2),
+                10px -10px 50px rgba(230, 3, 255, 0.2),
+                -10px 10px 50px rgba(4, 75, 255, 0.2);
+
+    border-radius: 10px;
+}
+
+.h-card-3>h3, .h-card-3>p{
+    text-align: center;
+}
+.search-div{
+    background-color: rgb(238, 238, 238);
+    border-radius: 10px;
+    width: 95%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.search-div>input{
+    border: none;
+    background-color: rgb(238, 238, 238);    
+    height: 45px;
+    text-align:left;
+    outline: none;
+}
+
+.h-card-3>button{
+    border: none;
+    background: linear-gradient(267deg, rgba(149,51,237,1) 0%, rgba(55,10,237,1) 100%);
+    margin-block:20px;
+    padding: 10px;
+    width: 95%;
+    border-radius: 10px;
+    color: white;
+}
+
+
+.courses{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-block: 40px;
+    background-color: #ECF8FF;
+}
+
+.course-details{
+    text-align: justify;
+    margin-block: 20px;
+}
+
+td{
+    padding: 15px; 
+    line-height: 20px;
+    padding-inline: 30px;
+}
+
+.beginner, .intermediate{
+    border: #e2e2e2 solid;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 30px;
+    line-height: 30px;
+    margin: 10px;
+    background-color: white;
+    position: relative;
+}
+
+.beginner{
+    border: #2f80ed solid;
+}
+
+
+.beginner:hover , .intermediate:hover{
+    box-shadow: 0px 0px 50px rgba(34, 8, 230, 0.3);
+}
+
+
+
+
+
+
+
+
+.line-1 , .line-2, .line-3, .line-4{
+    position: absolute;
+}
+.line-1{
+    width: 80%;
+    top:230px;
+    left:45px;
+}
+.line-2{
+    width: 80%;
+    top:300px;
+    left:45px;
+}
+.line-3{
+    width: 80%;
+    top:350px;
+    left:45px;
+}
+.line-4{
+    width: 80%;
+    top:400px;
+    left:45px;
+}
+.note{
+    background-color: #2f80ed;
+    color: white;
+    padding: 5px;
+    padding-inline: 10px;
+    border-radius: 10px;
+    position:absolute;
+    top:-20px;
+    left:120px;
+}
+
+.features-1, .features-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.features-2>p{
+    background-color: #FFEED8;
+    color: #965400;
+    margin-inline: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.features-1>p{
+    background-color: #E0F3FF;
+    color: #1d78b0;
+    margin-inline: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.course-types{
+    display: flex;
+    margin-block: 30px;
+}
+
+.companies{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.companies>img{
+    margin: 10px;
+    padding: 20px;
+}
+
+.hiring-partners{
+    text-align: center;
+    margin-block: 80px;
+}
+
+.wall-of-love{
+    margin-block: 80px;
+}
+
+.testimonials{
+	display: flex;
+    flex-wrap: wrap;
+}
+
+.testimonials>article{
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    width: 398px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.article-head{
+    display: flex;
+    justify-content: space-between;
+    align-items:normal;
+    line-height: 10px;
+}
+
+.article-head>div>p ,.article-body>p , .date>p{
+    color: rgb(103, 103, 103);
+}
+
+.article-body{
+    margin-top:20px 
+}
+
+.article-body>p{
+    font-size: 14px;
+}
+
+.date>p{
+    font-size: 12px;
+}
+
+.wall-of-love>h2, .wall-of-love>p{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .arrow{
+        display: none;
+    }
+
+    .hero{
+        flex-direction: column;
+    }
+
+    .h-card-3{
+        margin-top: 50px;
+    }
+
+    .course-types{
+        flex-direction: column;
+    }
+
+    .hero-left{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width : 600px){
+    .h-card-1{
+        width: 300px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .h-text>h1{
+        font-size: 30px;
+    }
+
+    .wall-of-love{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .note{
+        display: none;
+    }
+
+    .line-1, .line-2, .line-3, .line-4{
+        display: none;
+    }
+
+    td{
+        padding-inline: 20px ;
+        font-size: 12px;
+    }
+}
+
